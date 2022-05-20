@@ -103,7 +103,7 @@ namespace InstitutoApp
             this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.button4.Size = new System.Drawing.Size(150, 45);
             this.button4.TabIndex = 5;
-            this.button4.Text = "Botão 4";
+            this.button4.Text = "Serviços";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = true;
@@ -122,7 +122,7 @@ namespace InstitutoApp
             this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.button3.Size = new System.Drawing.Size(150, 45);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Botão 3";
+            this.button3.Text = "Clientes";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
@@ -141,7 +141,7 @@ namespace InstitutoApp
             this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.button2.Size = new System.Drawing.Size(150, 45);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Botão 2";
+            this.button2.Text = "Consultas";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
@@ -160,7 +160,7 @@ namespace InstitutoApp
             this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.button1.Size = new System.Drawing.Size(150, 45);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Botão 1";
+            this.button1.Text = "Novo";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
@@ -200,7 +200,7 @@ namespace InstitutoApp
             this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.button5.Size = new System.Drawing.Size(150, 45);
             this.button5.TabIndex = 6;
-            this.button5.Text = "Botão 5";
+            this.button5.Text = "Suporte";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = true;

@@ -1,4 +1,5 @@
-﻿using InstitutoApp.Forms;
+﻿using InstitutoApp.Data;
+using InstitutoApp.Forms;
 using InstitutoApp.Forms.Menus;
 using InstitutoApp.Properties;
 using System;
@@ -24,7 +25,7 @@ namespace InstitutoApp
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            var db = new ApplicationDBContext();
         }
         private void ClickBtn(object btnSender)
         {
