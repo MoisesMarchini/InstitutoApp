@@ -1,7 +1,7 @@
 ﻿
 namespace InstitutoApp.Forms.Menus
 {
-    partial class Menu4
+    partial class Clientes
     {
         /// <summary>
         /// Required designer variable.
@@ -39,16 +39,16 @@ namespace InstitutoApp.Forms.Menus
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(361, 37);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Título do Menu4";
+            this.label1.Text = "Quadro de Clientes";
             // 
-            // Menu4
+            // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Name = "Menu4";
-            this.Text = "Menu4";
+            this.Name = "Clientes";
+            this.Text = "Clientes";
             this.ResumeLayout(false);
 
         }

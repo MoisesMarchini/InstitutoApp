@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InstitutoApp.Forms.Menus
 {
-    public partial class Menu4 : Form
+    public partial class Clientes : Form
     {
-        public Menu4()
+        public Clientes()
         {
             InitializeComponent();
         }

@@ -59,7 +59,7 @@ namespace InstitutoApp
             ContentPanel.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-            lblHeader.Text = childForm.Text;
+            lblHeader.Text = childForm.Text.ToUpper();
         }
         private void button_Click(object sender, EventArgs e)
         {
@@ -71,19 +71,19 @@ namespace InstitutoApp
             }
             if (sender == button2)
             {
-                OpenChildForm(new Menu2(), sender);
+                OpenChildForm(new Consultas(), sender);
                 menusEnum = MenusEnum.Btn2;
                 return;
             }
             if (sender == button3)
             {
-                OpenChildForm(new Menu3(), sender);
+                OpenChildForm(new Clientes(), sender);
                 menusEnum = MenusEnum.Btn3;
                 return;
             }
             if (sender == button4)
             {
-                OpenChildForm(new Menu4(), sender);
+                OpenChildForm(new Servicos(), sender);
                 menusEnum = MenusEnum.Btn4;
                 return;
             }
